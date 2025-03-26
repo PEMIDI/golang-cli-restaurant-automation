@@ -26,7 +26,6 @@ func main() {
 
 	foods := generateFood()
 	for i, food := range foods {
-		// Example: fmt.Printf("%d - %s ($%.2f)\n", i+1, food.Name, food.Price)
 		println(i+1, food.Name)
 	}
 
